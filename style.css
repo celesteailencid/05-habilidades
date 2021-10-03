@@ -1,0 +1,80 @@
+body{
+    background-color: lightblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cajamadre{
+    width: 400px;
+    height: 400px;
+    margin: 100px auto 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgb(0, 0, 0, 0.3);
+}
+
+.titulo{
+    height: 30px;
+    width: 340px;
+    margin: 0 auto;
+}
+
+.titulo>h3{
+    font-weight: bold;
+    color: black;
+    display:inline-block;
+}
+
+.titulo>button{
+    height: 30px;
+    width: 70px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin-left: 120px;
+    background-color:white;
+    display:inline-block;
+}
+
+.view{
+    color:grey;
+}
+
+.titulo>button:hover{
+    color: crimson;
+}
+
+.cajas{
+    height: 200px;
+    margin-top: 50px;
+    justify-content:space-between;
+}
+
+.cajarosa, .cajavioleta, .cajanaranja{
+    width: 340px;
+    margin: 5px auto;
+    border-top: 1px solid rgb(230, 230, 230);
+    border-right: 1px solid rgb(230, 230, 230);
+    border-bottom: 1px solid rgb(230, 230, 230);
+    border-radius: 5px;
+}
+
+a{
+    text-decoration:none ;
+    color: black;
+    font-weight: bold;
+}
+
+p{
+    color:grey;
+}
+
+.cajarosa{
+    border-left: 3px solid rgb(160, 71, 86);
+}
+
+.cajavioleta{
+    border-left: 3px solid rgb(65, 31, 65);
+}
+
+.cajanaranja{
+    border-left: 3px solid rgb(173, 126, 39);
+}
